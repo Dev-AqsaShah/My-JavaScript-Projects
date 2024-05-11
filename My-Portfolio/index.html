@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/60107aa058.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+
+        <nav>
+            <img src="images/logo.jpg" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#my-work">My Work</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fas fa-regular fa-square-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fas fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="header-text">
+                <p>Frontend Developer</p>
+                <h1>Hi, I'm <span>Aqsa Shah</span><br> From Pakistan</h1>
+            </div>
+            <div class="header-image">
+                <img src="images/developer1.png" style="height: 450px; width: 120%;" alt="">
+            </div>
+        </div>
+    </div>
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user.jpg" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I am currently pursuing a course in Certified Cloud Applied Generative AI Engineering, where I am
+                        honing my skills in cloud computing and cutting-edge AI technologies. With a passion for
+                        innovation and a drive to explore the possibilities of AI, I am dedicated to creating meaningful
+                        and impactful solutions.
+
+                        My journey into the world of technology began with a fascination for AI and its potential to
+                        revolutionize industries. Through hands-on projects and immersive learning experiences, I am
+                        developing a strong foundation in AI engineering, cloud architecture, and data science.
+
+                        I am eager to apply my skills and knowledge to real-world challenges, contributing to the
+                        advancement of AI-driven solutions. With a commitment to lifelong learning and a mindset of
+                        continuous improvement, I am excited about the opportunities that lie ahead in the field of AI
+                        engineering.</p>
+
+                    <div class="tab-titales">
+                        <p class="tab-links active-link" onclick="opentab('skills')">skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">experience</p>
+                        <p class="tab-links" onclick="opentab('education')">education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>html/CSS</span><br></li>
+                            <li><span>JavaScript/TypeScript</span><br></li>
+                            <li><span>React.js/Next.js</span><br></li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2024 - Current</span><br>cloud Applied Generative Ai Engineering At Governor House
+                                Sindh</li>
+                            <li><span>2024 - Current</span><br>Working as Senior Student</li>
+                            <li><span>2024 - Current</span><br>Internship at CodeSoft</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2023</span><br>BS.Science </li>
+                            <li><span>2020</span><br>Bahria Foundation College</li>
+                            <li><span>2018</span><br>Paras Science School</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>My approach to web design is based on a combination of creativity, technical expertise, and a
+                        deep understanding of user experience. I work closely with my clients to understand their goals
+                        and objectives, ensuring that the final product not only looks great but also delivers results.
+                    </p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-sharp fa-solid fa-crop"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>A good design should not only be visually appealing but also intuitive to use. That's why I pay
+                        attention to every detail, from the layout and typography to the color scheme and interactive
+                        elements. The result is a digital experience that is not only beautiful but also functional and
+                        user-friendly.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>App design</h2>
+                    <p>I believe that great app design goes beyond just aesthetics. It's about creating a seamless and
+                        enjoyable experience for the user. That's why I pay attention to every detail, from the layout
+                        and navigation to the interactive elements and animations</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="my-work">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="Work">
+                    <img src="images/w-1.jpg">
+                    <div class="layer">
+                        <h3>Text To Voice Converter</h3>
+                        <p>Experience the power of technology with my text-to-voice converter, transforming written
+                            words
+                            into spoken language at the click of a button.</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="Work">
+                    <img src="images/w-2.jpg">
+                    <div class="layer">
+                        <h3>Amazon Clone</h3>
+                        <p>"Explore the convenience of online shopping with my Amazon clone, offering a seamless
+                            shopping
+                            experience with a wide range of products at your fingertips."</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="Work">
+                    <img src="images/w-3.jpg">
+                    <div class="layer">
+                        <h3>Stop Watch</h3>
+                        <p>"Enhance your time management skills with my stopwatch, a simple yet effective tool to track
+                            and
+                            manage your activities with precision and ease."</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+
+
+
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p style="padding-bottom: 10%; padding-left: 5%;"><i
+                            class="fa-solid fa-paper-plane"></i>aqsashah000000@gmail.com</p>
+                    <div class="social-icons" style="padding-bottom: 10%; padding-left: 5%;">
+                        <a href="https://www.instagram.com/developer_aqsashah?igsh=MTJ4dW9vZ211Zm5sMA=="><i
+                                class="fa-brands fa-square-instagram"></i></a>
+                        <a href="https://www.youtube.com/@aqsashah120"><i class="fa-brands fa-youtube"></i></a>
+                        <a href="https://www.linkedin.com/in/aqsa-shah-"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/Dev-AqsaShah"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                    <div style="padding-left: 5%;">
+                        <a href="images/AqsaNazz.pdf" download class="btn btn2">Download CV</a>
+                    </div>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Massage"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>copyright @ aqsa-shah <i class="fa-solid fa-heart"></i></p>
+        </div>
+    </div>
+
+
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu() {
+            sidemenu.style.right = "0";
+        }
+        function closemenu() {
+            sidemenu.style.right = "-200px"
+        }
+    </script>
+
+
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbwGK5Rnh62PpmHZOVf--ULIgcH35S0YdoY5JZL55ZBZ6Ly9CaYpozbCGXxbhvpIA8pc/exec';
+        const form = document.forms['submit-to-google-sheet'];
+        // const msg = getElementById("msg");
+
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response => {
+                    msg.innerHTML = "Message sent successfully."
+                    setTimeout(function () {
+                        msg.innerHTML = ""
+                    }, 5000)
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+
+</body>
+
+</html>
