@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f18b8b;
+}
+
+header {
+    background-color: #63b7ec;
+    color: #190685;
+    padding: 10px 10px;
+    display: flex;
+    align-items: center;
+
+}
+
+.logo {
+    width: 200px; 
+    height: 120px;
+    margin-right: 40px; 
+   
+}
+
+.company-info {
+    flex-grow: 1; 
+
+}
+
+#address {
+    text-align: right;
+}
+
+.contact-info {
+    text-align: right;
+}
+
+.content {
+    padding: 30px;
+}
+
+h1 {
+    margin-bottom: -100px;
+}
+
+p {
+    margin: 10px 0;
+}
