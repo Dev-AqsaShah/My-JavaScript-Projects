@@ -302,3 +302,43 @@ footer {
         gap: 15px;
     }
 }
+
+/* General styles for the navbar */
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #131921;
+    padding: 10px 20px;
+    color: #fff;
+}
+
+/* Styles for the logo and cart */
+.nav-logo {
+    display: flex;
+    align-items: center;
+}
+
+.nav-cart {
+    display: flex;
+    align-items: center;
+    margin: 0px 15px;
+}
+
+/* Hide all other elements in the navbar by default */
+.nav-country, 
+.nav-search, 
+.nav-language, 
+.nav-text {
+    display: none;
+}
+
+/* Media query for larger screens to display everything */
+@media (min-width: 768px) {
+    .nav-country,
+    .nav-search,
+    .nav-language,
+    .nav-text {
+        display: flex;
+    }
+}
