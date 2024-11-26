@@ -316,12 +316,12 @@ nav {
 /* Styles for the logo and cart */
 .nav-logo {
     display: flex;
-    align-items: center;
+    align-items: left;
 }
 
 .nav-cart {
     display: flex;
-    align-items: center;
+    align-items: right;
     margin: 0px 15px;
 }
 
